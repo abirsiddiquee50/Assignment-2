@@ -53,3 +53,54 @@ main{
     margin-top: 100px;
     margin-left: 5%;
     display: flex;
+}
+.for-p{
+    font-size: 16px;
+    width: 50%;
+}
+.logos{
+    display: flex;
+      justify-content: space-around; 
+     margin: 0 5%;
+      
+      
+      border: 1px solid gray;
+     
+      margin-top: 50px;
+      padding: 40px;
+}
+.middle-head{
+    text-align: center;
+    color: #3A3A3A;
+    margin-top: 100px;
+}
+.AP{
+    font-family: Inter;
+
+font-size: 24px;
+align-items: center;
+color: rgba(0, 0, 0, 0.87);
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 13px;
+    align-items: center;
+    grid-row-gap: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin: 16px 16%
+    }
+    .products-name{
+        box-shadow:5px 5px 5px gray;
+        width: 300px;
+        
+    }
+
+    .AP2
+{
+    font-family: Inter;
+font-size: 14px;
+align-items: center;
+color: #787885;
+}
